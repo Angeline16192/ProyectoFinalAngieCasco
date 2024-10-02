@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePlus - Venta de Boletos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CinePlus</h1>
+        <p>Disfruta de las mejores películas en el cine más cómodo y moderno de la ciudad.</p>
+    </header>
+
+    <main>
+        <section id="ticket-selection">
+            <h2>Compra tus boletos</h2>
+            <p>Selecciona el tipo de boleto que deseas y luego elige tu asiento favorito.</p>
+            <div>
+                <label for="ticket-type">Selecciona el tipo de boleto:</label>
+                <select id="ticket-type">
+                    <option value="adult">Adulto</option>
+                    <option value="child">Niño</option>
+                    <option value="senior">Tercera Edad</option>
+                </select>
+            </div>
+            <button id="purchase-button">Comprar</button>
+        </section>
+
+        <section id="seat-selection">
+            <h2>Selecciona tu asiento</h2>
+            <p>Elige entre los asientos disponibles para disfrutar de tu película con la mejor vista.</p>
+            <div id="seats">
+               
+            </div>
+        </section>
+
+        <button id="refresh-button">Refrescar selección</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CinePlus. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
